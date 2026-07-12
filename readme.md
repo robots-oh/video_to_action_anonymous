@@ -1,8 +1,22 @@
-## Video-To-Action for Bi-Manipulation
-- We aim to generate bi-manipulation action from video
+# DOLBi: Demonstration-Based Object-Centric Learning for Bimanual Manipulation
+
+## Videos
+#### UR - UR
+<video src="./video/urur_pourwater_front_main_x5.mp4" width="100%" controls autoplay loop muted></video>
+
+#### UR - Franka
+<video src="./video/urfranka_pourwater_front_x5.mp4" width="100%" controls autoplay loop muted></video>
+
+#### UR - Hand
+<video src="./video/urhand_pourwater_front_x5.mp4" width="100%" controls autoplay loop muted></video>
+
+#### Two_finger - Suction
+<video src="./video/ursuction_pourwater_front_x5.mp4" width="100%" controls autoplay loop muted></video>
 
 
-### build
+
+## Simulation
+#### build
 ```
 $ cd src
 $ docker build -t video_to_action .
@@ -19,8 +33,14 @@ $ docker run --name vtob_anony \
 	vtob_anony /bin/bash 
 
 $ bash /workspace/video_to_action/dolbi_install.sh
+```
 
+#### Inference
+```
 $ conda activate vtob
 $ cd /workspace/video_to_action/src/scripts
 $ bash eval_policy_multi_dolbi.sh
 ```
+
+#### Training
+Comming Soon
