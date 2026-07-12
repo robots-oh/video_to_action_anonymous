@@ -1,0 +1,3 @@
+/workspace/video_to_action/src/foundation_pose/mycpp/build/CMakeFiles/mycpp.dir
+/workspace/video_to_action/src/foundation_pose/mycpp/build/CMakeFiles/edit_cache.dir
+/workspace/video_to_action/src/foundation_pose/mycpp/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/workspace/video_to_action/src/foundation_pose/mycpp/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

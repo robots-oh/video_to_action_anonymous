@@ -1,0 +1,9 @@
+- task=rlbench/pour_water_to_cup
+- training.debug=True
+- training.seed=1001
+- training.device=cuda:0
+- exp_name=rlbench_multi
+- logging.mode=disabled
+- checkpoint.save_ckpt=
+- task.env_runner.use_fp=False
+- evaluation.eval_epoch=3000

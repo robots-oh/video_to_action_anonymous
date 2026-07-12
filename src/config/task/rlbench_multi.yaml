@@ -1,0 +1,24 @@
+name: rlbench
+task_name: multitask
+
+shape_meta: &shape_meta
+  # acceptable types: rgb, low_dim
+  obs:
+    point_cloud:
+      shape: [1024, 3]
+      type: point_cloud
+    agent_pos:
+      shape: [7]
+      type: low_dimx
+  action:
+    shape: [15]
+
+env_runner: null
+
+# dataset:
+#   _target_: diffusion_policy_3d.dataset.rlbench_dataset_list.RLBenchDualDatasetList
+#   root_dir: "/data/DOLBi/train" #"/data/VtoB_final/train"  # overrides all single-task configsb
+
+dataset:
+  _target_: diffusion_policy_3d.dataset.rlbench_dataset_list.RLBenchDualDatasetListReal
+  root_dir: "/data/DOLBi_real/train"
