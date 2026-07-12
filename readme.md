@@ -2,16 +2,16 @@
 
 ## Videos
 #### UR - UR
-<video src="./video/urur_pourwater_front_main_x5.mp4" width="100%" controls autoplay loop muted></video>
+<video src="https://raw.githubusercontent.com/robots-oh/video_to_action_anonymous/main/video/urur_pourwater_front_main_x5.mp4" width="100%" controls autoplay loop muted></video>
 
 #### UR - Franka
-<video src="./video/urfranka_pourwater_front_x5.mp4" width="100%" controls autoplay loop muted></video>
+<video src="https://raw.githubusercontent.com/robots-oh/video_to_action_anonymous/main/video/urfranka_pourwater_front_x5.mp4" width="100%" controls autoplay loop muted></video>
 
 #### UR - Hand
-<video src="./video/urhand_pourwater_front_x5.mp4" width="100%" controls autoplay loop muted></video>
+<video src="https://raw.githubusercontent.com/robots-oh/video_to_action_anonymous/main/video/urhand_pourwater_front_x5.mp4" width="100%" controls autoplay loop muted></video>
 
 #### Two_finger - Suction
-<video src="./video/ursuction_pourwater_front_x5.mp4" width="100%" controls autoplay loop muted></video>
+<video src="https://raw.githubusercontent.com/robots-oh/video_to_action_anonymous/main/video/ursuction_pourwater_front_x5.mp4" width="100%" controls autoplay loop muted></video>
 
 
 
